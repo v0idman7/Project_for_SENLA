@@ -1,0 +1,170 @@
+@font-face{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(' '),
+         url('../Fonts/Gilroy_Regular-400.woff') format('woff'),
+         url('../Fonts/Gilroy_Regular-400.woff2') format('woff2');
+}
+@font-face{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local(' '),
+         url("../Fonts/Gilroy_Medium-500.woff") format('woff'),
+         url("../Fonts/Gilroy_Medium-500.woff2") format('woff2');
+}
+@font-face{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local(' '),
+         url("../Fonts/Gilroy_SemiBold-600.woff") format('woff'),
+         url("../Fonts/Gilroy_SemiBold-600.woff2") format('woff2');
+}
+body{
+    background: #E5E5E5;
+    font-family: 'Gilroy', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.body-content-big{
+    max-width: 1150px;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__back{
+    padding-left: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #6B6B6B;
+}
+.header__back::before{
+    content: '';
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23FFC41E'/%3E%3Cpath d='M20.3998 11.6571V13.5429H8.6998L12.5998 17.3143L11.6248 19.2L4.7998 12.6L11.6248 6L12.5998 7.88571L8.6998 11.6571H20.3998Z' fill='white'/%3E%3C/svg%3E");
+    width: 24px;
+    height: 24px;
+    left: 0;
+}
+.header__title{
+    font-weight: 600;
+    font-size: 28px;
+    margin: 40px auto;
+}
+.header__list-label{
+    color: #6B6B6B;
+}
+.header__list{
+    font-weight: 500;
+    font-size: 14px;
+    width: 168px;
+    height: 40px;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.link-text{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.animals{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 44px;
+    grid-column-gap: 21px;
+}
+.animals-card{
+    list-style-type: none;
+    padding: 16px;
+    padding-left: 17px;
+    height: 663px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.animals-card__image{
+    width: 335px;
+    height: 356px;
+}
+.animals-card__title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 8px auto;
+}
+.animals-card__line{
+    border: none;
+    background-color: #D6D6D6;
+    height: 1px;
+    margin: 8px auto;
+    margin-top: 10px;
+}
+.animals-card__subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    color: #6B6B6B;
+    margin: 6px auto;
+    margin-top: 8px;
+}
+.animals-card__text{
+    font-weight: 500;
+    font-size: 14px;
+    height: 95px;
+    margin: 6px auto;
+}
+.animals-card__to-home{
+    margin: 17px auto;
+    margin-top: 30px;
+    width: 223px;
+    height: 42px;
+    border-radius: 21px;
+    background: #FBC832;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.animals-card__for-time{
+    padding: 0;
+    margin: auto;
+    width: 296px;
+    height: 42px;
+    border-radius: 21px;
+    border: 2px solid #FFC41E;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px auto;
+}
+.footer-list{
+    margin: 34px 0 24px 0;
+    padding: 0;
+}
+.footer-item{
+    color: #474747;
+    border-bottom: 1px solid #474747;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer-text{
+    text-align: center;
+    font-size: 12px;
+    color: #B3B3B3;
+}
