@@ -4,7 +4,7 @@ Project for SENLA
 ## Автор
 Войткевич Сергей
 
-### Почта
+## Почта
 
  - [sergeyvoitkevich@mail.ru](sergeyvoitkevich@mail.ru)
 
